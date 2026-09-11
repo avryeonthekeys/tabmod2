@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.tabdisable.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "PlayerTabOverlayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

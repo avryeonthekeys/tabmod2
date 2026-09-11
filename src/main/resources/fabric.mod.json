@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "tab-disable",
+  "version": "${version}",
+  "name": "Tab Disable",
+  "description": "Client-side Fabric mod that disables the vanilla TAB player list overlay.",
+  "environment": "client",
+  "license": "MIT",
+  "mixins": [
+    "tab-disable.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25"
+  }
+}
